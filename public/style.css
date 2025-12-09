@@ -34,7 +34,9 @@ body {
 .block {
     width: 100px;
     height: 100px;
-    background: #070707;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/images/Block.jpg");
     position: absolute;
 }
 
@@ -61,4 +63,12 @@ body {
     background-size: contain;
     background-image: url("/images/Bird.webp");
     border-radius: 50%;
+}
+.block.slimblock {
+    width: 100px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/images/Slimblock.jpg");
+    position: absolute;
 }

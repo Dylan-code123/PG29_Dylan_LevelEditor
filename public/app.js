@@ -72,7 +72,7 @@
         createBlock({}, 'block bird');
     });
     $('#add-slimblock').click(function () {
-        createBlock({});
+        createBlock({}, 'block slimblock');
     });
 
 
